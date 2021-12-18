@@ -7,7 +7,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
 @Data
-public class EmailDTO {
+public class EmailDto {
 
     @NotBlank(message = "Mandatory Field")
     private String ownerRef;
